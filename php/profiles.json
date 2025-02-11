@@ -1,0 +1,16 @@
+{
+    "profiles": {
+        "3": {
+            "name": "Smart Fr",
+            "m3uFile": "channels.m3u"
+        },
+        "4": {
+            "name": "Cjfecgy",
+            "m3uFile": "channels3.m3u"
+        },
+        "5": {
+            "name": "Exm3u",
+            "m3uFile": "channels7.m3u"
+        }
+    }
+}

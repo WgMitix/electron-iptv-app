@@ -1,0 +1,20 @@
+:root {
+    --background-color: rgb(0, 0, 0);
+    --text-color: white;
+    --primary-color: #007bff;
+    --primary-color-hover: #0056b3;
+    --danger-color: red;
+    --card-background: #1f1f1f;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --profile-card-width: 200px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+

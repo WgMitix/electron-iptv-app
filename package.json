@@ -1,9 +1,10 @@
 {
-  "name": "electron-iptv-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "FR IPTV",
+  "version": "2.0.0",
+  "description": "Une application IPTV basée sur Electron",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,11 +12,23 @@
     "url": "git+https://github.com/WgMitix/electron-iptv-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "TanguyLB",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/WgMitix/electron-iptv-app/issues"
   },
-  "homepage": "https://github.com/WgMitix/electron-iptv-app#readme"
+  "homepage": "https://github.com/WgMitix/electron-iptv-app#readme",
+  "devDependencies": {
+    "@electron-forge/publisher-github": "^7.6.1",
+    "electron": "^26.0.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/cli": "^7.0.1",
+    "@capacitor/core": "^7.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0"
+  }
 }
